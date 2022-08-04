@@ -1,0 +1,212 @@
+#better{
+    background: url("../image/background-glucose.jpg");
+    height: 1050px;
+}
+.container{
+    padding-top: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.container .right-content #img1{
+    margin-top: -160px;
+    position: absolute;
+}
+.container .right-content #img2{
+        padding-top: 50px;
+}
+
+.container .left-content{
+    padding-left: 15%;
+}
+.container .left-content h1{
+    font-size: 72px;
+    font-weight: 700;
+    color: #0D1A5E;
+}
+.container .left-content p{
+    color: #0D1A5E;
+    font-size: 28px;
+}
+
+#phone{
+    height: 3000px;
+}
+
+.contain{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contain .left{
+    margin-left: 20%;
+}
+
+.contain .left p{
+    padding-top: 70%;
+    padding-bottom: 70%;
+    color: #171E5E;
+    font-size: 28px;
+}
+
+.contain .left img{
+    padding-top: 30%;
+}
+
+.contain .content{
+    margin-right: 15%;
+    margin-left: 10%;
+}
+
+.contain .content p{
+    padding-top: 60%;
+    padding-bottom: 60%;
+    color: #171E5E;
+    font-size: 28px;
+}
+
+.contain .content img{
+    padding-top: 30%;
+}
+
+#seamless{
+    display: flex;
+    height: 1000px;
+}
+
+#seamless .content-right{
+    font-size: 36px;
+    font-weight: 700;
+    background-color: #EAEFF3;
+    height: 750px;
+    width: 908px;
+    display: block;
+    position: absolute;
+    margin-left: 42%;
+    padding-left: 10%;
+    padding-top: 12%;
+    color: #171E5E;
+}
+#seamless .content-right #img4{
+    margin-left: 5%;
+}
+
+.image-left{
+    margin-top: 10%;
+    margin-left: 10%;
+    position: absolute;
+    display: block;
+    z-index: 9999;
+}
+
+#seamless-second{
+    display: flex;
+    height: 800px;
+}
+
+#seamless-second .image-right{
+    margin-top: 10%;
+    position: absolute;
+    display: block;
+    z-index: 9999;
+    margin-left: 50%;
+}
+
+#seamless-second .content-left{
+    font-size: 26px;
+    font-weight: 700;
+    background-color: #EAEFF3;
+    height: 770px;
+    width: 908px;
+    display: block;
+    position: absolute;
+    margin-right: 42%;
+    padding-left: 10%;
+    padding-top: 12%;
+    color: #171E5E;
+}
+#seamless-second .content-left p{
+    font-size: 20px;
+    color: #0D1A5E;
+    font-weight: 100;
+}
+
+.other-saying{
+    height: 800px;
+    background-color: white;
+}
+
+.top-title{
+    width: 90%;
+    padding-top: 100px;
+}
+
+.top-title ul .right-content{
+    text-align: right;
+    margin-right: 5%;
+}
+
+.top-title ul .right-content .down{
+    margin-top: 25%;
+    text-align: left;
+}
+
+.top-title ul .right-content .down h3{
+    color: rgba(23,30,94,.3);
+}
+
+.top-title ul .right-content .strong{
+    font-weight: 100;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.top-title ul .right-content strong{
+    font-size: 48px;
+    font-weight: 700;
+    color: #171E5E;
+}
+
+.top-title ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-title ul li{
+    list-style-type: none;
+}
+
+.top-title ul .left-content{
+    color: #1282A7;
+    margin-left: 12%;
+}
+
+.top-title ul .left-content h2{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: -10px;
+}
+
+.top-title ul .left-content h3{
+    color: rgba(23,30,94,.3);
+}
+
+.top-title ul .left-content h4,p {
+    color: black;
+}
+
+.top-title ul .left-content h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.top-title ul .left-content .previous, .next{
+    font-size: 40px;
+    width: 10%;
+    color: gray;
+    padding-top: 40px;
+}
+
+.top-title ul .left-content .previous:hover, .next:hover{
+    color: #171E5E;
+    transition: ease-in-out 150ms;
+}
