@@ -362,7 +362,7 @@
 
 /*Other Saying*/
 .other-saying{
-    height: 680px;
+    height: 720px;
     background-color: white;
 }
 
@@ -419,6 +419,10 @@
 
 .top-title ul .left-content h3{
     color: rgba(23,30,94,.3);
+}
+
+.top-title ul .left-content img{
+    margin-top: 12%;
 }
 
 .top-title ul .left-content h4,p {

@@ -194,7 +194,7 @@
     z-index: 0;
     background-color: #353c41;
     transform: skew(0deg,-14deg);
-    height: 45.56em;
+    height: 64.56em;
     top: 8.3em;
 }
 #meal-background{
@@ -204,13 +204,13 @@
 }
 #meal{
     background-color: #212629;
-    height: 1000px;
+    height: 600px;
 }
 #meal-content{
     display: flex;
     position: relative;
     z-index: 99;
-    margin-top: -40%;
+    margin-top: -60%;
 }
 #right{
     color: #ffffff;
@@ -222,4 +222,90 @@
 #right p{
     font-size: 28px;
     font-weight: 300;
+    color: #ffffff;
 }
+/*Other Saying*/
+#saying-other{
+    margin-top: 20%;
+    height: 850px;
+    position: relative;
+    z-index: 9999;
+    background-color: #ffffff;
+}
+
+.top-title{
+    width: 90%;
+    padding-top: 100px;
+}
+
+.top-title ul .right-content{
+    text-align: right;
+    margin-right: 5%;
+}
+
+.top-title ul .right-content .down{
+    margin-top: 40%;
+    text-align: left;
+}
+
+.top-title ul .right-content .down h3{
+    color: rgba(23,30,94,.3);
+}
+
+.top-title ul .right-content .strong{
+    font-weight: 100;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.top-title ul .right-content strong{
+    font-size: 48px;
+    font-weight: 700;
+    color: #171E5E;
+}
+
+.top-title ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-title ul li{
+    list-style-type: none;
+}
+
+.top-title ul .left-content{
+    color: #0D1A5E;
+    margin-left: 12%;
+}
+
+.top-title ul .left-content h2{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: -10px;
+}
+
+.top-title ul .left-content h3{
+    color: rgba(23,30,94,.3);
+}
+
+.top-title ul .left-content h4,p {
+    color: black;
+}
+
+.top-title ul .left-content h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.top-title ul .left-content .previous, .next{
+    font-size: 40px;
+    width: 10%;
+    color: gray;
+    padding-top: 40px;
+}
+
+.top-title ul .left-content .previous:hover, .next:hover{
+    color: #0D1A5E;
+    transition: ease-in-out 150ms;
+}
+/*Other Saying End*/
