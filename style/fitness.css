@@ -141,6 +141,7 @@
 #content-right ul li p{
     font-size: 28px;
     font-weight: 300;
+    color: white;
 }
 
 .body-build{
@@ -154,8 +155,11 @@
     margin-left: 20%;
 }
 .body-build .feedback .text{
-    color: #ffffff;
+    color: white;
     margin-left: 5%;
+}
+.body-build .feedback .text p{
+    color: white;
 }
 .body-build .feedback .text .button #button1{
     background-color: #7e7e7e;

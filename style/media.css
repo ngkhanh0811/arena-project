@@ -10,3 +10,8 @@
         margin-top: 8%;
     }
 }
+@media only screen and (width: 1300px){
+    #first #image-phone #hand-phone{
+        margin-top: 55px;
+    }
+}
