@@ -15,7 +15,7 @@ header {
     top: 0;
     left: 0;
     bottom: 0;
-    z-index: 1000;
+    position: relative;
 }
 #logo-header{
     align-items: center;
@@ -33,12 +33,18 @@ header {
     margin-right: 4em;
     font-size: 14px;
 }
-
+#navbar-header a{
+    text-decoration: none;
+}
 #navbar-header ul li{
     display: flex;
     margin-right: 4em;
-    color: white;
+    color: rgba(255, 255, 255, 0.54);
     text-transform: uppercase;
+}
+
+#navbar-header ul li:hover{
+    color: #ffffff;
 }
 .image-item{
     position: relative;
@@ -52,6 +58,7 @@ header {
     justify-content: space-between;
     margin-top: -2px;
     align-items: center;
+    padding-left: 15%;
 }
 .image-item ul{
     display: flex;
@@ -93,6 +100,7 @@ header {
 
 #top-nav{
     display: flex;
+    background-color: rgba(247, 247, 247, 0.17);
 }
 #top-nav ul{
     width: 100%;

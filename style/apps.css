@@ -1,0 +1,196 @@
+/*Section Instant Health Rate*/
+#instant{
+    padding-left: 15%;
+    padding-top: 25%;
+    height: 930px;
+    background-image: linear-gradient(344deg,#ffa196 24%,#5ec7f3 66%);
+    display: flex;
+    justify-content: space-between;
+}
+#instant #title{
+    width: 70%;
+}
+#instant #title h1{
+    color: #ffffff;
+    font-size: 52px;
+    font-weight: 700;
+}
+#instant #title p{
+    font-size: 28px;
+    font-weight: 200;
+    color: #ffffff;
+}
+#instant #title button {
+    background-color: #f7f7f7;
+    color: #65b3e8;
+    border: none;
+    border-radius: 40px;
+    height: 40px;
+    width: 152px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#instant #title button:hover{
+    background-color: #65b3e8;
+    color: #f7f7f7;
+    transition: ease-in-out 150ms;
+}
+#instant #img5{
+    position: absolute;
+    z-index: 1;
+    margin-left: 40%;
+}
+#instant #img6{
+    margin-top: -6%;
+    position: absolute;
+    z-index: 0;
+    margin-left: 60%;
+}
+/*Instant Health Rate End*/
+
+/*Start Glucose Buddy*/
+#glucose{
+    height: 850px;
+    background-image: url("../image/background-glu.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+#glucose #contain{
+    display: flex;
+}
+#glucose #contain img{
+    position: absolute;
+    margin-left: 15%;
+}
+#glucose #contain #img7{
+    z-index: 99;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+#glucose #contain #img8{
+    margin-top: 15%;
+    z-index: 0;
+}
+#glucose #contain #right{
+    margin-top: 15%;
+    margin-left: 50%;
+    float: right;
+    text-align: left;
+}
+#glucose #contain #right h1{
+    color: #0d1a5e;
+    font-size: 52px;
+    font-weight: 700;
+}
+#glucose #contain #right p{
+    font-size: 28px;
+    font-weight: 300;
+    color: #0D1A5E;
+}
+#glucose #contain #right button{
+    height: 52px;
+    width: 210px;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgba(70, 65, 210, 0.96);
+    border: none;
+    border-radius: 40px;
+    font-weight: 500;
+}
+#glucose #contain #right button:hover{
+    background-color: rgb(15, 10, 155);
+    transition: ease-in-out 150ms;
+}
+/*Glucose Buddy End*/
+
+/*Start Fitness*/
+#fitness{
+    height: 665px;
+}
+
+.video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -100;
+}
+.cont{
+    padding-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont .left-content{
+    padding-left: 12%;
+}
+.cont .left-content h1{
+    font-size: 52px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.cont .left-content p{
+    color: #ffffff;
+    font-size: 28px;
+}
+.cont .left-content button{
+    height: 40px;
+    width: 152px;
+    color: #ffffff;
+    background-color: #005EFFC3;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+    border-radius: 40px;
+}
+.cont .left-content button:hover{
+    background-color: #005eff;
+    transition: ease-in-out 150ms;
+}
+/*Fitness End*/
+
+#calorie{
+    height: 800px;
+    background-image: url("../image/background-calorie.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    align-items: center;
+}
+
+#calorie .calorie-container #left{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+#calorie .calorie-container{
+    display: flex;
+    justify-content: center;
+}
+#calorie .calorie-container #right-content{
+    color: #0D1A5E;
+    margin-right: 15%;
+    width: 65%;
+    margin-top: 18%;
+}
+#calorie .calorie-container #right-content h1{
+    font-size:52px;
+    font-weight: 700;
+}
+#calorie .calorie-container #right-content p{
+    font-size: 28px;
+}
+#calorie .calorie-container #right-content button{
+    height: 48px;
+    width: 160px;
+    color: #ffffff;
+    background-color: #fd8c00;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 40px;
+}
+#calorie .calorie-container #right-content button:hover{
+    background-color: #fd6100;
+    transition: ease-in-out 150ms;
+}

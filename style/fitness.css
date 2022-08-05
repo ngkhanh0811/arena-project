@@ -1,0 +1,225 @@
+#video-top{
+    height: 750px;
+}
+.video{
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -100;
+}
+.cont{
+    padding-top: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont .left-content{
+    align-items: center;
+    margin-top: -15%;
+    padding-left: 12%;
+}
+.cont .left-content h1{
+    font-size: 52px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.cont .left-content p{
+    color: #ffffff;
+    font-size: 28px;
+}
+
+#feature{
+    padding-top: 2%;
+    text-align: center;
+    height: 340px;
+    margin-top: 3%;
+    background-image: linear-gradient(4deg,#005795,#188dff 72%);
+}
+#feature h3{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+}
+.feature-in ul{
+    display: flex;
+    justify-content: center;
+}
+.feature-in ul li{
+    margin-top: 2%;
+    list-style-type: none;
+    flex: 5%;
+}
+.feature-in ul li p{
+    margin-top: 10%;
+    color: #ffffff;
+}
+
+#get-fit{
+    height: 995px;
+    background-color: #212629;
+    color: #ffffff;
+}
+#get-fit .all{
+    display: flex;
+    justify-content: center;
+}
+#get-fit .all img{
+    margin-right: 5%;
+    padding-top: 5%;
+}
+#get-fit .all .right-text{
+    padding-top: 2%;
+}
+#get-fit .all .right-text h2{
+    font-size: 56px;
+    font-weight: 700;
+}
+#get-fit .all .right-text h3{
+    font-size: 22px;
+    font-weight: 700;
+}
+#get-fit .all .right-text p{
+    font-size: 19px;
+    font-weight: 300;
+    color: #ffffff;
+}
+#get-fit .all .right-text ul li{
+    list-style-type: none;
+    margin-right: -5%;
+}
+#get-fit .all .right-text ul li img{
+    float: left;
+    margin-bottom: 18%;
+    margin-top: -3%;
+}
+
+.track-another{
+    padding-top: 80%;
+    position: absolute;
+    background-image: linear-gradient(39deg,#005795 25%,#188dff 84%);
+    transform: skew(0deg,-16deg);
+    height: 55.56em;
+    top: 8.3em;
+}
+.track-another{
+    position: relative;
+    padding-top: 6.25em;
+    padding-bottom: 11.11em;
+}
+.track{
+    background-color: #212629;
+    height: 2000px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -50%;
+}
+
+.three-phone{
+    position: relative;
+    z-index: 99;
+    margin-left: 10%;
+}
+
+#content-right{
+    position: relative;
+    z-index: 99;
+    margin-right: 5%;
+    width: 100%;
+}
+#content-right ul li{
+    list-style-type: none;
+    color: #ffffff;
+}
+#content-right ul li h1{
+    font-size: 56px;
+    font-weight: 700;
+}
+#content-right ul li p{
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.body-build{
+    height: 550px;
+}
+.body-build .feedback{
+    display: flex;
+    position: relative;
+    z-index: 99;
+    margin-top: -50%;
+    margin-left: 20%;
+}
+.body-build .feedback .text{
+    color: #ffffff;
+    margin-left: 5%;
+}
+.body-build .feedback .text .button #button1{
+    background-color: #7e7e7e;
+    height: 36px;
+    width: 77px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 40px;
+    margin-right: 2%;
+    color: #ffffff;
+}
+.body-build .feedback .text .button #button2{
+    background-color: #ff3434;
+    width: 160px;
+    height: 36px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 40px;
+    color: #ffffff;
+}
+.body-build .feedback .text h1{
+    background-color: #0c72cb;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.body-build .feedback .text p{
+    font-size: 20px;
+}
+#meal-background{
+    position: absolute;
+    z-index: 0;
+    background-color: #353c41;
+    transform: skew(0deg,-14deg);
+    height: 45.56em;
+    top: 8.3em;
+}
+#meal-background{
+    position: relative;
+    padding-top: 6.25em;
+    padding-bottom: 11.11em;
+}
+#meal{
+    background-color: #212629;
+    height: 1000px;
+}
+#meal-content{
+    display: flex;
+    position: relative;
+    z-index: 99;
+    margin-top: -40%;
+}
+#right{
+    color: #ffffff;
+}
+#right h1{
+    font-size: 56px;
+    font-weight: 700;
+}
+#right p{
+    font-size: 28px;
+    font-weight: 300;
+}
