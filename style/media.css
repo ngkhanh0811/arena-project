@@ -1,0 +1,12 @@
+@media only screen and (width: 1344px){
+    #first #image-phone #hand-phone{
+        margin-top: 42px;
+    }
+    #first #image-phone #hero-phone{
+        padding-right: -10%;
+    }
+
+    #instant #img5, #img6{
+        margin-top: 8%;
+    }
+}
